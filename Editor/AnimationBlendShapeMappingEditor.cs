@@ -403,7 +403,6 @@ namespace Chreez.Editor.Tools
             get {
                 var style = new GUIStyle(GUI.skin.label);
                 style.fontSize = (int)(style.fontSize * 0.9);
-                style.normal.textColor = new Color(0.25f, 0.25f, 0.25f);
                 style.hover.textColor = new Color(0x00 / 255f, 0x78 / 255f, 0xDA / 255f, 1f);
                 return style;
             }
